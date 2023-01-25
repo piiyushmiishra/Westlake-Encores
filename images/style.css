@@ -1,0 +1,400 @@
+@charset "utf-8";
+/* CSS Document */
+.clearfix { clear:both}
+
+
+.headerWrap { padding:0px;  margin:0px auto; background: url(../images/banner.jpg) left top repeat-x; background-size:cover; }
+.headerSlot { padding:0px;  margin:0px auto; height:595px}
+.logo { padding-top:10px; margin:0px auto; float:left  }
+
+.contact-details { padding:20px 15px; margin-top:30px; background-color:rgb(255,255,255,0.3); border-radius:10px; width: 337px; float:right; text-align:center}
+.head-name { padding:0px; margin:0px auto;}
+.head-name  h1 {padding:0px; margin:0px auto; font-size:24px;} 
+.head-name span {padding:0px; margin:0px auto; font-size:17px;}
+
+.contact-info {padding-top:5px; margin:0px auto; border-top:1px solid rgb(0,0,0,0.5) }
+.contact-info h5 { padding:0px; margin:0px auto; font-size:14px }
+.contact-info span { font-weight:bold}
+
+.aboutWrap { padding:0px; margin:0px auto; background: #f3f2f0; height:380px; position:relative; z-index:-1}
+.aboutSlot {padding:0px; margin:0px auto;}
+.aboutSlot h1 { font-size:22px}
+.aboutSlot span { color:red; font-weight:600}
+.paragraph {padding: 0px; margin-top: 25px;}
+.paragraph img { padding-right:20px; float:left} 
+.paragraph p { font-size:13px; text-align: justify;}
+
+.ribbonWrap {padding: 0px; margin: 0px auto;}
+.discount { padding: 0px; margin-top: -76px; background: #f64d54; height: 113px; position: relative;}
+.discount::before {background: url(images/ribbon-left.png); width: 73px ;height: 93px; position: absolute; left: -60px; top: 32px; content: ""; 	 					z-index:-1}
+.discount::after {background: url(images/ribbon-right.png);width: 73px;height: 93px; position: absolute; right: -60px; top: 32px; content: "";   		 					z-index:-1}
+.circle { padding:0px; margin:0px auto; background:url(../images/black-circle.png) left top no-repeat; height: 186px; width: 186px; float: left; text-align: center; position: absolute; left: 20%; top: -30px;}
+.circle h4 {padding-top: 60px; margin: 0px auto; font-size: 20px; text-transform: uppercase; color: #fff; font-family: Gill Sans MT}
+.circle span {font-size: 42px; font-family: Gill Sans MT}
+
+.ribbon-text {padding-top: 25px; margin: 0px auto; float: left;}
+.ribbon-text ul {padding: 0px; margin: 0px auto; list-style:url(images/tick-icon.png); float:left}
+.ribbon-text ul li {padding: 0px 40px 0px 8px; margin: 0px auto; font-family:  Gill Sans MT; color: white; font-size: 21px;}
+.ribbon-text ul.right {margin-top: 15px;}
+
+.planWrap {margin-top: 70px; padding: 0px; }
+.planSlot {padding:0px;  margin:0px auto;}
+.planSlot h3 {font-size: 22px}
+.planSlot span { color:red; font-weight:600}
+
+.para-1 {width: 45%; float: left; font-size: 13px; text-align: justify;}
+.para-2 {width: 45%; float: right; font-size: 13px; text-align: justify}
+
+
+.sliderWrap { padding:0px; margin:0px auto; }
+.sliderSlot { margin-top:30px; position:relative; padding:0px 50px}
+
+.item .lSAction {    position: absolute; left: 0%; top: 50%; width: 100%;}
+.item .lSAction > .lSPrev { background: url(images/prev-button.png)}
+.item .lSAction > .lSNext { background: url(images/next-button.png)}
+.item .lSAction > a { height:50px; width:50px}
+.item .lSSlideWrapper { position:static;}
+
+.cardWrap { padding:0px; margin-top: 50px;}
+.cardSlot {padding: 0px; margin: 0px auto}
+.cardSlot h3 {font-size: 22px}
+
+.card {margin-right: 62px; margin-top: 30px; width: 220px; display: inline-block; background-color: #fff;  position:relative; z-index: 0; transition: 0.2s all;}
+.card:hover {z-index: 1; box-shadow: 0 5px 20px rgba(0,0,0,0.2); transform: scale(1.05);}
+
+.card-txt {padding: 0px; margin: 0px auto; width: 220px;} 
+.card-txt h3 {padding-top: 27px; margin: 0px auto; font-size: 18px}
+.card-txt h4 {padding-top: 10px; margin: 0px auto; font-size: 18px; color: #f64d54; font-weight: 600}
+.card-txt p  {padding-top: 17px; margin: 0px auto; font-size: 12px}
+.card-txt span {color: red}
+
+.card-button {padding: 0px; margin-top: 10px;  width: 115px; background-color: #878787; font-size: 12px;  color: #fff; border: none; border-radius: 40px; height: 30px;}
+.card-button:hover {background-color: #54524f; transition: linear 0.2s; color: #fff;}
+
+
+.formWrap {padding-bottom: 60px; margin-top: 60px; background-color: #f3f2f0}
+.formSlot {padding: 0px; margin: 0px auto}
+.heading-txt { padding:28px 0px 0px 23px; margin:0px auto}
+.heading-txt h1 {padding: 0px; margin: 0px auto; font-size: 28px}
+.heading-txt p {padding: 0px; margin: 0px auto; font-size: 14px; color:#444444; font-weight:100}
+
+.box { padding:28px 0px 0px 23px; margin:0px auto}
+
+.name {padding:0px; margin:0px auto}
+.name h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.name-box {padding:5px 10px; margin-top:8px ; font-size:12px; font-style:italic; width:335px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.phone {padding:0px; margin-top:10px}
+.phone h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.phone ul { padding:0px; margin:0px auto}
+.phone ul li { padding:0px; margin:0px auto; display:inline-block;}
+
+
+.country-code {padding:5px 6px; margin-top:5px ; font-size:12px; font-style:italic; width:89px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+.city-code {padding:5px 6px; margin-top:5px ; font-size:12px; font-style:italic; width:69px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+.number {padding:5px 6px; margin-top:5px ; font-size:12px; font-style:italic; width:137px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.box-right { padding:40px 0px 0px 0px; margin-right:45px}
+
+.email {padding:0px; margin:0px auto}
+.email h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.email-box {padding:5px 10px; margin-top:8px ; font-size:12px; font-style:italic; width:325px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.comment {padding:0px; margin-top:10px}
+.comment h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.comment-box {padding:5px 6px; padding-bottom:72px ; margin-top:5px; font-size:12px; font-style:italic; width:325px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.form-button {padding: 0px; margin-top: 10px;  width: 140px; background-color: #f64d54; font-size: 14px; font-weight: bold;  color: #fff; border: none; border-radius: 40px; height: 47px; border: 3px solid #fff;}
+.form-button:hover {background-color: #54524f; transition: linear 0.2s; color: #fff;}
+
+.button { padding: 0px; margin: 0px auto; position: relative; background: url(../HTML/images/logo-bottom.png) center top no-repeat; height: 228px;}
+.form-button { padding: 0px; margin: 0px auto; position: absolute; top: 50%; left: 25%;}
+
+
+
+.footerWrap { padding-bottom: 30px; margin: 0px auto; background: #f64d54 }
+.footerSlot { padding-top: 40px; margin: 0px auto; background:url(../images/footer-logo.png) left 23px no-repeat; text-align:center }
+.company-name h1 { padding: 0px; margin-bottom: 10px; font-size: 28px; color:white }
+.address h3  { padding-top: 30px; margin: 0px auto; font-size: 20px; color:white; border-top:1px solid rgba(256,256,256,0.5); max-width:650px }
+
+.footer-contact { padding:0px; margin-top:30px; text-align:center }
+.footer-contact ul { padding:0px; margin:0px auto; }
+.footer-contact ul li { padding:0px 10px 0px 10px; margin:0px auto; display:inline-block; border-right: 1px solid #fff; color:white; font-size:18px }
+.footer-contact ul li.ddd {display: block}
+.footer-contact ul li:nth-child(2) { border: none}
+.footer-contact ul li:nth-child(6) { border: none}
+
+
+.policyWrap {padding: 0px; margin: 0px auto;  background-color: #414141}
+.policySlot {padding: 0px; margin: 0px auto;  }
+
+.policy p {padding: 35px 0px 35px 0px; margin: 0px auto; color: white; font-family: Raleway; font-size: 13px }
+
+.icons { padding: 35px 0px 35px 0px; margin: 0px auto;}
+.icons ul { padding: 0px 0px; margin: 0px auto; float: right; }
+.icons ul li {padding: 0px; margin: 0px auto; display: inline-block}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+@media screen and (max-width:1199px) {
+	
+	.discount {}
+	.discount::before { display:none}
+	.discount::after { display:none}
+
+    }
+
+
+  
+  
+  
+  
+    @media screen and (max-width:992px) {
+
+  .contact-details { padding:10px 10px; margin-top:20px; width: 300px; background-color:rgb(255,255,255,0.5);}
+  .head-name { padding:0px; margin:0px auto;}
+  .head-name  h1 {padding:0px; margin:0px auto; font-size:22px;} 
+  .head-name span {padding:0px; margin:0px auto; font-size:15px;}
+
+	
+	.discount {margin-top:0px; height:auto }
+	.discount::before { display:none}
+	.discount::after { display:none}
+
+  .circle {left: 10%;  background-size:cover; height: 146px; width: 146px ;}
+  .circle h4 {font-size: 16px; padding-top:50px; margin:0px auto ;}
+  .circle span {font-size: 34px;  }
+  
+  .ribbon-text {padding-top: 25px; margin-left: 40px;}
+
+
+
+.cardWrap { padding:0px; margin-top: 50px;}
+.cardSlot {padding: 0px; margin: 0px auto}
+.cardSlot h3 {font-size: 22px}
+
+.card {margin-right: 0px; margin-top: 30px; width: 100%;  display: inline-block; background-color: #fff;  position:relative; z-index: 0; transition: 0.2s all;}
+.card:hover {z-index: 1; box-shadow: 0 5px 20px rgba(0,0,0,0.2); transform: scale(1.05); background-color: lightgray;}
+.card img {width: 320px; height: 250px; float: left;}  
+
+.card-txt {padding-left: 20px; margin: 0px auto; width: 55%; float: right;} 
+.card-txt h3 {padding-top: 30px; margin: 0px auto; font-size: 35px}
+.card-txt h4 {padding-top: 10px; margin: 0px auto; font-size: 35px; color: #f64d54; font-weight: 600}
+.card-txt p  {padding-top: 17px; margin: 0px auto; font-size: 12px}
+.card-txt span {color: red}
+
+.card-button {padding: 0px; margin-top: 10px;  width: 115px; background-color: #878787; font-size: 12px;  color: #fff; border: none; border-radius: 40px; height: 30px;}
+.card-button:hover {background-color: #54524f; transition: linear 0.2s; color: #fff;}
+
+.formWrap {padding: 0px; margin-top: 60px; background-color: #f3f2f0}
+.formSlot {padding-bottom: 50px; margin: 0px auto}
+.heading-txt { padding:28px 0px 0px 23px; margin:0px auto}
+.heading-txt h1 {padding: 0px; margin: 0px auto; font-size: 28px}
+.heading-txt p {padding: 0px; margin: 0px auto; font-size: 14px; color:#444444; font-weight:100}
+
+.box { padding:28px 0px 0px 23px; margin:0px auto; width: 310px; float: left;}
+
+.name {padding:0px; margin:0px auto}
+.name h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.name-box {padding:5px 10px; margin-top:8px ; font-size:12px; font-style:italic; width:280px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.phone {padding:0px; margin-top:10px; width: 280px;}
+.phone h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.phone ul { padding:0px; margin:0px auto}
+.phone ul li { padding:0px; margin:0px auto; display:inline-block;}
+
+
+.country-code {padding:5px 6px; margin-top:5px ; font-size:12px; font-style:italic; width:89px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+.city-code {padding:5px 6px; margin-top:5px ; font-size:12px; font-style:italic; width:69px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+.number {padding:5px 6px; margin-top:5px ; font-size:12px; font-style:italic; width:137px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.box-right { padding:28px 0px 0px 23px; margin-right:0px; width: 310px; float: right;}
+
+.email {padding:0px; margin:0px auto}
+.email h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.email-box {padding:5px 10px; margin-top:8px ; font-size:12px; font-style:italic; width:285px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.comment {padding:0px; margin-top:10px}
+.comment h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.comment-box {padding:5px 6px; padding-bottom:72px ; margin-top:5px; font-size:12px; font-style:italic; width:325px; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.form-button {padding: 0px; margin-top: 10px;  width: 140px; background-color: #f64d54; font-size: 14px; font-weight: bold;  color: #fff; border: none; border-radius: 40px; height: 47px; border: 3px solid #fff;}
+.form-button:hover {background-color: #54524f; transition: linear 0.2s; color: #fff;}
+
+.button { padding: 0px; margin: 0px auto; position: relative; background: none; height: auto;}
+.form-button { padding: 0px; margin: 0px auto; position: absolute; top: 95%; left: 2%;}
+
+
+.policyWrap {padding: 0px; margin: 0px auto;  background-color: #414141}
+.policySlot {padding: 0px; margin: 0px auto;  }
+
+.policy p {padding: 35px 0px 35px 0px; margin: 0px auto; color: white; font-family: Raleway; font-size: 13px; float: left; }
+
+.icons { padding: 35px 0px 35px 0px; margin: 0px auto; float: right;}
+.icons ul { padding: 0px 0px; margin: 0px auto; float: right; }
+.icons ul li {padding: 0px; margin: 0px auto; display: inline-block}
+
+
+.item .lSAction {    position: absolute; left: -7%; top: 50%; width: 114%;}
+.item .lSAction > .lSPrev { background: url(images/prev-button.png)}
+.item .lSAction > .lSNext { background: url(images/next-button.png)}
+.item .lSAction > a { height:50px; width:50px}
+.item .lSSlideWrapper { position:static;}
+
+
+
+
+}
+
+  
+  
+  
+  
+  
+  @media screen and (max-width:767px) {
+
+  .headerWrap { padding:0px;  margin:0px auto; background: url(../images/mobile-bannner.jpg) left top repeat-x; background-size:cover; }
+
+    
+  .logo { padding-top:10px; margin:0px auto; float:left  }
+  .logo img {width: 45px; height: 60px;}
+    
+  .contact-details { padding:10px 10px; margin-top:20px; width: 300px; background-color:rgb(255,255,255,0.5);}
+  .head-name { padding:0px; margin:0px auto;}
+  .head-name  h1 {padding:0px; margin:0px auto; font-size:22px;} 
+  .head-name span {padding:0px; margin:0px auto; font-size:15px;}
+
+  .aboutWrap {height: auto;} 
+
+	
+	.discount {margin-top:70px; height:auto }
+	.discount::before { display:none}
+	.discount::after { display:none}
+
+  .circle {left: 0%;  background-size:cover; height: 120px; width: 120px ;}
+  .circle h4 {font-size: 14px; padding-top:40px; margin:0px auto ;}
+  .circle span {font-size: 30px;  }
+  
+  .ribbon-text {padding: 95px 0px 10px; margin-left: 40px;}
+  .ribbon-text ul li {padding: 0px 40px 10px 0px;  font-size: 15px;}
+  .ribbon-text ul.right {margin-top: 0px;}
+
+
+.planWrap {margin-top: 70px; padding: 0px; }
+.planSlot {padding:0px;  margin:0px auto;}
+.planSlot h3 {font-size: 17px}
+.planSlot span { color:red; font-weight:600}
+
+.para-1 {width: 45%; float: left; font-size: 11px; text-align: justify;}
+.para-2 {width: 45%; float: right; font-size: 11px; text-align: justify}
+
+
+.cardWrap { padding:0px; margin-top: 80px;}
+.cardSlot {padding: 0px; margin: 0px auto}
+.cardSlot h3 {font-size: 24px; text-align:center}
+
+.card {margin: 30px 40px; width: 280px;  display: inline-block; background-color: #fff;  position:relative; z-index: 0; transition: 0.2s all;  text-align:center}
+.card:hover {z-index: 1; box-shadow: 0 5px 20px rgba(0,0,0,0.2); transform: scale(1.05); background-color: lightgray;}
+.card img {width: 280px; height: 250px; float: left; text-align: center;}  
+
+.card-txt {padding-left: 0px; margin: 0px auto; float: left; width: 100%;} 
+.card-txt h3 {padding-top: 30px; margin: 0px auto; font-size: 20px}
+.card-txt h4 {padding-top: 10px; margin: 0px auto; font-size: 22px; color: #f64d54; font-weight: 600}
+.card-txt p  {padding-top: 10px; margin: 0px auto; font-size: 12px}
+.card-txt span {color: red}
+
+.card-button {padding: 0px; margin: 20px 0px;  width: 115px; background-color: #878787; font-size: 12px;  color: #fff; border: none; border-radius: 40px; height: 30px;}
+.card-button:hover {background-color: #54524f; transition: linear 0.2s; color: #fff;}
+
+.item .lSAction { display: none!important;}
+
+
+
+
+.formWrap {padding: 0px; margin-top: 60px; background-color: #f3f2f0}
+.formSlot {padding: 0px; margin: 0px auto}
+.heading-txt { padding:28px 0px 0px 0px; margin:0px auto; text-align:center}
+.heading-txt h1 {padding: 0px; margin: 0px auto; font-size: 28px}
+.heading-txt p {padding: 0px; margin: 0px auto; font-size: 14px; color:#444444; font-weight:100}
+
+.box { padding:28px 0px 0px 0px; margin:0px auto; text-align:center}
+
+.name {padding:0px; margin:0px auto}
+.name h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.name-box {padding:5px 10px; margin-top:8px ; font-size:12px; font-style:italic; width:100%; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.phone {padding:0px; margin-top:30px; width:100%}
+.phone h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.phone ul { padding:0px; margin:0px auto}
+.phone ul li { padding:0px; margin:0px auto; display:block;}
+
+
+.country-code {padding:5px 6px; margin-top:5px ; font-size:12px; font-style:italic; width:100%; outline:none; border:1px solid rgba(0,0,0,0.2) }
+.city-code {padding:5px 6px; margin-top:5px ; font-size:12px; font-style:italic; width:100%; outline:none; border:1px solid rgba(0,0,0,0.2) }
+.number {padding:5px 6px; margin-top:5px ; font-size:12px; font-style:italic; width:100%; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.box-right { padding:0px 0px 0px 0px; margin-top:30px; float: left; text-align:center}
+
+.email {padding:0px; margin:0px auto}
+.email h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.email-box {padding:5px 10px; margin-top:8px ; font-size:12px; font-style:italic; width:100%; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.comment {padding:0px; margin-top:10px}
+.comment h3 {padding:0px; margin:0px auto; font-size:13px; font-weight:600}
+.comment-box {padding:5px 6px; padding-bottom:72px ; margin-top:5px; font-size:12px; font-style:italic; width:100%; outline:none; border:1px solid rgba(0,0,0,0.2) }
+
+.form-button {padding: 0px; margin-top: 10px;  width: 120px; background-color: #f64d54; font-size: 12px; font-weight: regular;  color: #fff; border: none; border-radius: 20px; height: 40px; border: 3px solid #fff;}
+.form-button:hover {background-color: #54524f; transition: linear 0.2s; color: #fff;}
+
+.button { padding: 0px; margin: 0px; height: 100px; width: 280px;}
+.form-button { padding: 0px; margin: 0px auto; top: 30%; left: 35%;}
+
+
+.footerWrap { padding-bottom: 30px; margin: 0px auto; background: #f64d54 }
+.footerSlot { padding-top: 40px; margin: 0px auto; background:url(../images/footer-logo.png) left 23px no-repeat; text-align:center }
+.company-name h1 { padding: 0px; margin-bottom: 10px; font-size: 20px; color:white }
+.address h3  { padding-top: 20px; margin: 0px auto; font-size: 16px; color:white; border-top:1px solid rgba(256,256,256,0.5); max-width:650px }
+
+.footer-contact { padding:0px; margin-top:30px; text-align:center }
+.footer-contact ul { padding:0px; margin:0px auto; }
+.footer-contact ul li { padding:0px 10px 0px 10px; margin:0px auto; display:inline-block; border-right:none; color:white; font-size:14px }
+.footer-contact ul li.ddd {display: none}
+.footer-contact ul li:nth-child(2) { border-right: none; color:white;}
+.footer-contact ul li:nth-child(6) { border: none; color:white;}
+
+
+.policyWrap {padding: 0px; margin: 0px auto;  background-color: #414141; text-align:center}
+.policySlot {padding: 0px; margin: 0px auto;  }
+
+.policy {padding: 0px; margin: 0px auto; text-align: center  }
+.policy p {padding: 35px 0px 0px 0px; margin: 0px auto; color: white; font-family: Raleway; font-size: 12px }
+
+.icons { padding: 20px 0px 0px 85px; margin: 0px auto; float: left;}
+.icons ul { padding: 0px 0px; margin: 0px auto; }
+.icons ul li {padding: 0px; margin: 0px auto; display: inline-block}
+
+
+
+}
+		
+		
+	
+
+
+
+
+
+
+
